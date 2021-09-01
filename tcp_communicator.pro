@@ -9,13 +9,17 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    astronomy_question.cpp \
+    base_question.cpp \
     main.cpp \
     mainwindow.cpp \
-    message.cpp
+    nature_question.cpp
 
 HEADERS += \
+    astronomy_question.h \
+    base_question.h \
     mainwindow.h \
-    message.h
+    nature_question.h
 
 FORMS += \
     mainwindow.ui
